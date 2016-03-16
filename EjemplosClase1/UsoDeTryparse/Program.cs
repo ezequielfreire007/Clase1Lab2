@@ -9,6 +9,12 @@ namespace UsoDeTryparse
     {
         static void Main(string[] args)
         {
+            Console.Title = "Uso de Try Parse";
+            String dato;
+            Console.WriteLine("Ingrese su edad: ");
+            dato = Console.ReadLine();
+            int numero;
+            numero = int.Parse(dato);
         }
     }
 }
